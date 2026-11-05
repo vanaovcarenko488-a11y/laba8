@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="player-block">
+            <div class="label">User<br><span id="user-score">0</span></div>
+            <div class="circle" id="user-num">?</div>
+        </div>
+
+        <div class="control-block">
+            <button class="btn-generate" id="btn-gen" onclick="playRound()">Generate</button>
+        </div>
+
+        <div class="player-block">
+            <div class="label">Computer<br><span id="comp-score">0</span></div>
+            <div class="circle" id="comp-num">?</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
